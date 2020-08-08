@@ -1,0 +1,141 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Merriweather',serif;
+}
+/*******************heading*******************/
+h1{
+  color: #66BFBF;
+  font-family: 'Cookie', cursive;
+ margin: 50px auto 0 auto;
+ font-size: 5.625rem;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+/********************      **************/
+p{
+  line-height: 2;
+  border-bottom: 10px;
+}
+hr{
+border: dotted #EAF6F6 10px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+
+}
+/***************** container ***************/
+.top-container{
+  width: 100%;
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+    background-color: #e3fdfd;
+
+}
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+/*********************************************/
+
+.bottom-cloud{
+  position: absolute;
+  bottom:45%;
+  left:25%;
+}
+.top-cloud{
+  position: absolute;
+  right:20%;
+  top:10%;
+}
+
+.skill-row{
+width: 50%;
+height: 50%;
+margin:100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+.skill{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+.skills{
+  border-bottom: 30px;
+}
+.space-knowledge{
+  width: 25%;
+  float: right;
+
+  border-radius: 100%;
+}
+.intro{
+  width: 50%;
+  margin: auto;
+}
+.sharingIScaring{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background-color:  #66BFBF;
+  border: 1px solid #05dfd7;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 40px;
+  font-family: 'Merriweather',serif;
+  margin-bottom: 50px;
+
+}
+.btn:hover {
+  -webkit-box-shadow: 0 0 10px 4px rgba(101,230,213,1);
+-moz-box-shadow: 0 0 10px 4px rgba(101,230,213,1);
+box-shadow: 0 0 10 4px rgba(101,230,213,1);
+}
+.btn:active {
+  background-color: #05dfd7;
+  box-shadow: inset 2px 2px -3px rgba(255, 255, 255, .6),
+               inset 2px 2px 3px rgba(0, 0, 0, .6);
+  transform: translateY(4px);
+}
+.footer-link{
+  margin: 10px 20px;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.90rem;
+  padding: 10px 0;
+}
+.dp{
+  margin-top: 50px;
+}
+.pro{
+  text-decoration: underline;
+}
